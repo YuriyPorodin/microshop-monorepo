@@ -11,6 +11,7 @@ products = [
     {"id": 3, "name": "Product C", "price": 15.5},
 ]
 
+
 @app.route('/products', methods=['GET'])
 def get_products():
     """Получить список всех товаров"""
